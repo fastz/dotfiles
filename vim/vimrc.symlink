@@ -10,11 +10,11 @@ set modelines=0
 
 "select colorscheme
 if has('gui_running')
-  colorscheme zenburn
+  colorscheme wombat
   autocmd VimEnter * NERDTree
   autocmd VimEnter * wincmd p
 else
-  colorscheme zenburn
+  colorscheme wombat
 endif
 
 """""""""""""""""""""""""""""""""
@@ -64,7 +64,7 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 
-set list
+"set list
 set listchars=tab:▸\ ,eol:¬
 
 
