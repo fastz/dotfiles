@@ -34,7 +34,7 @@ export UPDATE_ZSH_DAYS=13
 #~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails3, battery, debian, ruby)
+plugins=(git bundler rails3 battery debian ruby)
 
 source $ZSH/oh-my-zsh.sh
 
