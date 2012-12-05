@@ -14,7 +14,7 @@ if has('gui_running')
   autocmd VimEnter * NERDTree
   autocmd VimEnter * wincmd p
 else
-  colorscheme wombat
+  colorscheme default
 endif
 
 """""""""""""""""""""""""""""""""
@@ -109,4 +109,7 @@ endfunc
 set number
 nnoremap <C-n> :call NumberToggle()<cr>
 map <F2> :NERDTreeToggle<CR>
-
+autocmd VimEnter * nmap <F3> :NERDTreeToggle<CR>
+autocmd VimEnter * imap <F3> <Esc>:NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
+let NERDTreeWinSize=35

@@ -288,3 +288,7 @@ __git_ps1 ()
 		printf -- "${1:- (%s)}" "$c${b##refs/heads/}${f:+ $f}$r$p"
 	fi
 }
+
+__unpushed() {
+  /usr/bin/git cherry @{upstream} 2>/dev/null
+}
