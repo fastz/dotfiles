@@ -5,7 +5,6 @@
 #
 #
 [[ -s "/home/fastz/.rvm/scripts/rvm" ]] && source "/home/fastz/.rvm/scripts/rvm"
-HOME=/home/fastz
 VGIT=/home/fastz/slgit
 VESTOO=/home/fastz/slgit/webapp
 SLBLOG=/home/fastz/slgit/blog
