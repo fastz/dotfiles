@@ -18,7 +18,7 @@ ZSH_THEME="af-magic"
 # DISABLE_AUTO_UPDATE="true"
 
 # Change this value to set how frequently ZSH updates¬
-export UPDATE_ZSH_DAYS=13
+#export UPDATE_ZSH_DAYS=13
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
@@ -40,3 +40,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/home/fastz/.rvm/gems/ruby-1.9.3-p286/bin:/home/fastz/.rvm/gems/ruby-1.9.3-p286@global/bin:/home/fastz/.rvm/rubies/ruby-1.9.3-p286/bin:/home/fastz/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+if [[ -a ~/.localrc ]]
+then
+    source ~/.localrc
+fi
+
+source aliases.sh
