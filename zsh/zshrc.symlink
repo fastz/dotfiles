@@ -46,4 +46,7 @@ then
     source ~/.localrc
 fi
 
-source aliases.sh
+if [[ -a ~/.aliases.sh ]]
+then
+  source aliases.sh
+fi
