@@ -1,0 +1,1 @@
+/home/fastz/.dotfiles/vim/vim.symlink
